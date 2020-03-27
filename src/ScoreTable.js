@@ -30,16 +30,19 @@ class ScoreTable extends Component {
                             <RuleRow
                                 name="Ones"
                                 score={scores.ones}
+                                description={ones.description}
                                 doScore={evt => doScore('ones', ones.evalRoll)}
                             />
                             <RuleRow
                                 name="Twos"
                                 score={scores.twos}
+                                description={twos.description}
                                 doScore={evt => doScore('twos', twos.evalRoll)}
                             />
                             <RuleRow
                                 name="Threes"
                                 score={scores.threes}
+                                description={threes.description}
                                 doScore={evt =>
                                     doScore('threes', threes.evalRoll)
                                 }
@@ -47,6 +50,7 @@ class ScoreTable extends Component {
                             <RuleRow
                                 name="Fours"
                                 score={scores.fours}
+                                description={fours.description}
                                 doScore={evt =>
                                     doScore('fours', fours.evalRoll)
                                 }
@@ -54,6 +58,7 @@ class ScoreTable extends Component {
                             <RuleRow
                                 name="Fives"
                                 score={scores.fives}
+                                description={fives.description}
                                 doScore={evt =>
                                     doScore('fives', fives.evalRoll)
                                 }
@@ -61,6 +66,7 @@ class ScoreTable extends Component {
                             <RuleRow
                                 name="Sixes"
                                 score={scores.sixes}
+                                description={sixes.description}
                                 doScore={evt =>
                                     doScore('sixes', sixes.evalRoll)
                                 }
@@ -75,6 +81,7 @@ class ScoreTable extends Component {
                             <RuleRow
                                 name="Three of Kind"
                                 score={scores.threeOfKind}
+                                description={threeOfKind.description}
                                 doScore={evt =>
                                     doScore('threeOfKind', threeOfKind.evalRoll)
                                 }
@@ -82,6 +89,7 @@ class ScoreTable extends Component {
                             <RuleRow
                                 name="Four of Kind"
                                 score={scores.fourOfKind}
+                                description={fourOfKind.description}
                                 doScore={evt =>
                                     doScore('fourOfKind', fourOfKind.evalRoll)
                                 }
@@ -89,6 +97,7 @@ class ScoreTable extends Component {
                             <RuleRow
                                 name="Full House"
                                 score={scores.fullHouse}
+                                description={fullHouse.description}
                                 doScore={evt =>
                                     doScore('fullHouse', fullHouse.evalRoll)
                                 }
@@ -96,6 +105,7 @@ class ScoreTable extends Component {
                             <RuleRow
                                 name="Small Straight"
                                 score={scores.smallStraight}
+                                description={smallStraight.description}
                                 doScore={evt =>
                                     doScore(
                                         'smallStraight',
@@ -106,6 +116,7 @@ class ScoreTable extends Component {
                             <RuleRow
                                 name="Large Straight"
                                 score={scores.largeStraight}
+                                description={largeStraight.description}
                                 doScore={evt =>
                                     doScore(
                                         'largeStraight',
@@ -116,6 +127,7 @@ class ScoreTable extends Component {
                             <RuleRow
                                 name="Yahtzee"
                                 score={scores.yahtzee}
+                                description={yahtzee.description}
                                 doScore={evt =>
                                     doScore('yahtzee', yahtzee.evalRoll)
                                 }
@@ -123,6 +135,7 @@ class ScoreTable extends Component {
                             <RuleRow
                                 name="Chance"
                                 score={scores.chance}
+                                description={chance.description}
                                 doScore={evt =>
                                     doScore('chance', chance.evalRoll)
                                 }
